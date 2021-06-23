@@ -1,0 +1,118 @@
+.bg-login-image {
+	background: url(../img/login.png) bottom center;
+	background-size: 140%;
+}
+
+.parsley-required {
+	color: #af2d2d;
+	list-style: none;
+	font-weight: italic;
+	margin: 10px -20px;
+}
+.parsley-type {
+	color: #af2d2d;
+  }
+
+iframe {
+	margin: 10px 0;
+	border: 1px solid #ccc;
+}
+
+.margin, label {
+	margin-top: 15px;
+}
+.fhoto-img {
+	align-items: center;
+}
+.letra {
+	font-family:italic;
+	color: #cbaf87;
+	margin: 5px;
+}
+
+#dashboard .card {
+	background: rgb(255, 255, 255); /* cor dos cards */
+	border-radius: 10%;
+}
+.card {
+    box-shadow: 0 3px 14px rgb(184, 184, 184); /* cor da linha que contorna o card, direita, desfoque */
+    margin-bottom: 10px; /* espaço entre o card de cima e o de baixo */
+    text-align:center; 
+	font-family:italic;
+	color:grey;
+
+    margin-top: px; /* altura abaixo da navbar 20px deixa os card bonitinho*/ 
+}
+
+.card .card-title {
+    color: #343a40; 
+}
+
+
+.card img {
+    border-radius: 0%;/*deixar a imagem redonda */
+    border-bottom: 1px solid #3e4042;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto; /* Alinhar ao meio */
+    padding: 10px;
+}
+
+#listagem {
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+  }
+
+  #formulario {
+    padding: 10px;
+    width: 100%;
+    height: 50%;
+    /*box-shadow: 0 8px 8px rgb(24, 24, 22); */
+    margin: 0px auto; /* altura do formulario */
+    color: gray;
+    border-radius: 15px;
+    
+  }
+
+  #sub {
+    padding: 80px;
+  }
+
+  #sub p{
+    color:black;
+  }
+
+  #sub p {
+    text-align: center;
+  }
+
+  #total {
+    margin-left: auto;
+  }
+
+  button {
+    margin-left: auto;
+  }
+
+  #tb { /* data table */
+    text-align: center;
+  }
+
+  #total {
+    width:140px;
+    margin: 0 auto; 
+    text-align: center;
+    font-weight: 900;
+  }
+  
+  #bot {
+    float: right;
+  }
+
+  .box {
+    background-color: #8b868617;
+    min-height: 130px;
+    box-shadow: black 4px 4px 10px;
+}
+  

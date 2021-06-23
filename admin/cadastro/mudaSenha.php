@@ -36,14 +36,11 @@
         <input type="password" id="senhanova2" onblur="verificarSenha()" class="form-control" required data-parsley-required-message="Confirme a senha">
       </div>
     </div>
-    
-		   
-   
     </div>
 </div>
     <button type="submit" class="btn btn-success margin">
-			   <i class="fas fa-check"></i> Salvar
-		    </button>
+		  <i class="fas fa-check"></i> Salvar
+		</button>
    
 	</form>
     </div>

@@ -80,14 +80,15 @@
 		data-parsley-required-message="Preencha este campo, por favor"
 		value="<?=$tipo;?>">
 	</div>
-	</form>
 	</div>
-	
-</div>
-</div>
+	</div>
+	</div>
 		<a href="" class="btn btn-outline-danger margin"><i class="fa fa-chevron-left"></i> Voltar</a>
 
 		<button type="submit" class="btn btn-outline-success margin">
 			<i class="fas fa-check"></i> Salvar
 		</button>
-</div>
+
+	</form>
+	</div>
+

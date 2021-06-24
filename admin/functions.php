@@ -139,26 +139,3 @@ function formatarValor($valor)
 
 	return $valor;
 }
-
-
-function msg($titulo, $mensagem, $icone) { //Função que retorna um alerta bonitinho
-
-	?>
-	<script>
-		//mostrar a telinha animada - alert
-		Swal.fire(
-		  '<?=$titulo?>',
-		  '<?=$mensagem?>',
-		  '<?=$icone?>'
-		).then((result) => {
-			//retornar para a tela anterior
-			history.back();
-		})
-	</script>
-	<?php
-
-	exit;
-
-}
-
-	
